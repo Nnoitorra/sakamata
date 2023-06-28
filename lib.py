@@ -26,3 +26,9 @@ def move_file(work_dir, dest_dir):
         shutil.copytree(src_folder, dest_folder, dirs_exist_ok=True)
         shutil.rmtree(src_folder)
 
+
+def get_id2(name):
+    re_id = re.compile(r"(?<=\()((?![\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FFF])[^\"&?\/\s]){11}(?=\))")
+    ytid = re_id.search(name)
+    return ytid
+
