@@ -15,7 +15,7 @@ yta_args = [
     '-c',
     'cookies.txt',
     '--output',
-    '%(channel)s/%(release_date,upload_date)s - %(title)s(%(id)s)',
+    '%(channel)s/%(upload_date)s - %(title)s(%(id)s)',
     '-r',
     '15'
 ]
