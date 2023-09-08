@@ -5,8 +5,8 @@ import sys
 import lib
 
 
-work_dir = r'F:\Downloads\yt-dlp'
-dest_dir = r'D:\Downloads\yt-dlp'
+work_dir = r''
+dest_dir = r''
 
 
 def main():

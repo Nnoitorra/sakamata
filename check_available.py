@@ -11,7 +11,7 @@ yt_dlp_args = [
     '-j'
 ]
 
-root_dir = r'\\LucasNAS\Archives\ytarchive\videos'
+root_dir = r''
 file_list = []
 
 

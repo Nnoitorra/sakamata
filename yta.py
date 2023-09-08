@@ -4,8 +4,8 @@ import os
 import lib
 
 
-work_dir = r'F:\Downloads\ytarchive'
-dest_dir = r'D:\Downloads\ytarchive'
+work_dir = r''
+dest_dir = r''
 yta_args = [
     '--vp9',
     '--thumbnail',

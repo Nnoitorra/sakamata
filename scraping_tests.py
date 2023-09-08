@@ -6,7 +6,7 @@ import time
 import getpass
 
 
-browser_driver = Service(r'C:\Users\lucas\AppData\Local\Temp\chocolatey\chromedriver')
+browser_driver = Service(r'')
 page_to_scrape = webdriver.Chrome(service=browser_driver)
 page_to_scrape.implicitly_wait(10)
 page_to_scrape.get("https://osu.ppy.sh/beatmapsets")
@@ -18,7 +18,7 @@ i = 1
 page_to_scrape.find_element(By.XPATH, "/html/body/div[4]/div[1]/div[4]/div/div[2]/div[4]/button").click()
 username = page_to_scrape.find_element(By.NAME, "username")
 password = page_to_scrape.find_element(By.NAME, "password")
-username.send_keys("Nnoitorra")
+username.send_keys("")
 mypass = getpass.getpass()
 password.send_keys(mypass)
 page_to_scrape.find_element(By.XPATH, "/html/body/div[5]/div/form/div[5]/div/button").click()
