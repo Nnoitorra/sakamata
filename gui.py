@@ -47,7 +47,7 @@ class YtaTab(QWidget):
         
 
 app = QApplication([])
-# app.setStyleSheet(Path(r"C:\Users\mueller\Documents\VSC\Python\PyQt\ui.qss").read_text())
+# app.setStyleSheet(Path(r"ui.qss").read_text())
 window = MainWindow()
 window.show()
 app.exec()
